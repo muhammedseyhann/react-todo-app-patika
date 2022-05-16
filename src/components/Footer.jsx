@@ -9,9 +9,7 @@ function Footer({ todo, setTodo, filter, setFilter }) {
     };
     return (
         <>
-            {/* <!-- This footer should hidden by default and shown when there are todos --> */}
             <footer className="footer">
-                {/* <!-- This should be `0 items left` by default --> */}
                 <span className="todo-count">
                     {numberActivity.length === 1
                         ? `1 item left`
